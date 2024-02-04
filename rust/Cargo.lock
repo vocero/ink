@@ -3,9 +3,17 @@
 version = 3
 
 [[package]]
-name = "compiler"
+name = "ink-compiler"
 version = "0.1.0"
 
 [[package]]
 name = "ink-engine-runtime"
 version = "0.1.0"
+
+[[package]]
+name = "inklecate"
+version = "0.1.0"
+dependencies = [
+ "ink-compiler",
+ "ink-engine-runtime",
+]
