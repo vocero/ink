@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/.gitignore": true,
+        "**/.vscode": true,
+        "**/Cargo.*": true,
+        "**/target": true,
+        "**/*.toml": true
+    }
+}
