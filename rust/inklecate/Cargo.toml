@@ -1,0 +1,10 @@
+[package]
+name = "inklecate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+"ink-compiler" = { path = "../ink-compiler" }
+"ink-engine-runtime" = { path = "../ink-engine-runtime" }
