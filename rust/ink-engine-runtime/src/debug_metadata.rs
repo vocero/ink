@@ -30,8 +30,8 @@ impl DebugMetadata {
 
     pub fn merge(&self, dm: &DebugMetadata) -> DebugMetadata {
         let mut ret_val = DebugMetadata::new(
-            self.file_name,
-            self.source_name,
+            self.file_name.to_string(),
+            self.source_name.to_string(),
             self.start_character_number,
             self.start_line_number,
             self.end_line_number,
