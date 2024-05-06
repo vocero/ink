@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>Ink</RootNamespace>
     <AssemblyName>ink_compiler</AssemblyName>
+    <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
 
   <PropertyGroup>
